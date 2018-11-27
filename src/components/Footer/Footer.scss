@@ -1,0 +1,14 @@
+.footer-wrapper {
+    padding: 0 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #F2F4F5;
+    height: 70px;
+    border-radius: 0 0 8px 8px;
+}
+
+.no-bg {
+    background-color: inherit;
+    padding-bottom: 20px;
+}

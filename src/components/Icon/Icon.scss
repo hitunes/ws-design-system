@@ -1,0 +1,34 @@
+.design-icon {
+    height: 40px;
+    width: 40px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #B2B8C6;
+    opacity: .9;
+}
+
+.bg-blue {
+    color: #6069FC;
+    opacity: .9;
+    background-color: rgba($color: #E4E2FE, $alpha: .5);
+}
+
+.bg-red {
+    color: #CD4364;
+    opacity: .9;
+    background-color: rgba($color: #F6E1E3, $alpha: .5);
+}
+
+.bg-orange {
+    color: #E84B39;
+    opacity: .9;
+    background-color: rgba($color: #F8E1D3, $alpha: .5);
+}
+
+.big-icon {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+}

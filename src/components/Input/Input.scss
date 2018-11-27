@@ -1,0 +1,24 @@
+    .main-input {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        position: relative;
+        display: inline-block;
+        padding: 4px 11px;
+        height: 32px;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #2D303A;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #d9d9d9;
+        border-radius: 4px;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        &:hover {
+            border-color: inherit;
+        }
+        &:focus {
+            outline: 0;
+        }
+    }

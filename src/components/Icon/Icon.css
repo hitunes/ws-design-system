@@ -1,0 +1,41 @@
+.design-icon {
+  height: 40px;
+  width: 40px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  color: #B2B8C6;
+  opacity: .9;
+}
+
+.bg-blue {
+  color: #6069FC;
+  opacity: .9;
+  background-color: rgba(228, 226, 254, 0.5);
+}
+
+.bg-red {
+  color: #CD4364;
+  opacity: .9;
+  background-color: rgba(246, 225, 227, 0.5);
+}
+
+.bg-orange {
+  color: #E84B39;
+  opacity: .9;
+  background-color: rgba(248, 225, 211, 0.5);
+}
+
+.big-icon {
+  height: 50px;
+  width: 50px;
+  font-size: 18px;
+}
+/*# sourceMappingURL=Icon.css.map */

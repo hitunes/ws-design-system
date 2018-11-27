@@ -1,0 +1,67 @@
+.main-button {
+  outline: 0px;
+  font-weight: 600;
+  text-align: center;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  font-size: 14px;
+  height: 42px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.016) 0px 2px 0px;
+          box-shadow: rgba(0, 0, 0, 0.016) 0px 2px 0px;
+  color: rgba(0, 0, 0, 0.65);
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  -o-border-image: initial;
+     border-image: initial;
+  padding: 0px 2rem;
+  margin-left: 15px;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+.btn--blue {
+  color: white;
+  background-color: #6069FC;
+  text-shadow: rgba(0, 0, 0, 0.12) 0px -1px 0px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.043) 0px 2px 0px;
+          box-shadow: rgba(0, 0, 0, 0.043) 0px 2px 0px;
+  border-color: #6069fc;
+}
+
+.btn--blue:active {
+  background-color: rgba(96, 105, 252, 0.8);
+  border-color: #6069fc;
+}
+
+.btn--blue:hover {
+  background-color: rgba(96, 105, 252, 0.9);
+  border-color: #6069fc;
+}
+
+.btn--red {
+  color: white;
+  background-color: #E1444F;
+  text-shadow: rgba(0, 0, 0, 0.12) 0px -1px 0px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.043) 0px 2px 0px;
+          box-shadow: rgba(0, 0, 0, 0.043) 0px 2px 0px;
+  border-color: #e0424c;
+}
+
+.btn--red:active {
+  background-color: rgba(224, 66, 76, 0.9);
+  border-color: #e0424c;
+}
+
+.btn--red:hover {
+  background-color: rgba(224, 66, 76, 0.9);
+  border-color: #e0424c;
+}
+/*# sourceMappingURL=Button.css.map */

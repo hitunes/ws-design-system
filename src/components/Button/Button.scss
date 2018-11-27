@@ -1,0 +1,53 @@
+.main-button {
+    outline: 0px;
+    font-weight: 600;
+    text-align: center;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    font-size: 14px;
+    height: 42px;
+    user-select: none;
+    box-shadow: rgba(0, 0, 0, 0.016) 0px 2px 0px;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    padding: 0px 2rem;
+    margin-left: 15px;
+    border-radius: 4px;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+.btn--blue {
+    color: rgb(255, 255, 255);
+    background-color: #6069FC;
+    text-shadow: rgba(0, 0, 0, 0.12) 0px -1px 0px;
+    box-shadow: rgba(0, 0, 0, 0.043) 0px 2px 0px;
+    border-color: rgb(96, 105, 252);
+    &:active {
+        background-color: rgba(96, 105, 252, 0.8);
+        border-color: rgb(96, 105, 252);
+    }
+    &:hover {
+        background-color: rgba(96, 105, 252, 0.9);
+        border-color: rgb(96, 105, 252);
+    }
+}
+
+.btn--red {
+    color: rgb(255, 255, 255);
+    background-color: #E1444F;
+    text-shadow: rgba(0, 0, 0, 0.12) 0px -1px 0px;
+    box-shadow: rgba(0, 0, 0, 0.043) 0px 2px 0px;
+    border-color: rgb(224, 66, 76);
+    &:active {
+        background-color: rgba(224, 66, 76, 0.9);
+        border-color: rgb(224, 66, 76);
+    }
+    &:hover {
+        background-color: rgba(224, 66, 76, 0.9);
+        border-color: rgb(224, 66, 76);
+    }
+}
